@@ -69,7 +69,7 @@ weatherapp/
 
 When the application loads for the first time, it automatically displays the weather information for Bangalore.
 
-![Default Weather](screenshots/default-weather.png)
+![Default Weather](https://github.com/Kiran-sai-99/weatherapp/blob/1171295cf6a069b8abee9c059459bca81b7d0c75/Default_City.png)
 
 ---
 
@@ -77,7 +77,7 @@ When the application loads for the first time, it automatically displays the wea
 
 Weather information displayed successfully when a valid city name is entered.
 
-![Weather Result](screenshots/weather-result.png)
+![Weather Result](https://github.com/Kiran-sai-99/weatherapp/blob/1171295cf6a069b8abee9c059459bca81b7d0c75/Valid_City_Search.png)
 
 ---
 
@@ -85,7 +85,7 @@ Weather information displayed successfully when a valid city name is entered.
 
 Displays an error message when the entered city is not found.
 
-![City Not Found](screenshots/city-not-found.png)
+![City Not Found](https://github.com/Kiran-sai-99/weatherapp/blob/1171295cf6a069b8abee9c059459bca81b7d0c75/Invalid_City_Search.png)
 
 ---
 
