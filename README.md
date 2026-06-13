@@ -1,10 +1,10 @@
-# 🌦️ Weather Application
+# Weather Application
 
 A modern and responsive Weather Application built using **Django**, **Python**, **HTML**, **CSS**, and the **OpenWeatherMap API**. This application allows users to search for any city and get real-time weather information including temperature, humidity, wind speed, pressure, visibility, cloud coverage, and weather conditions. The project demonstrates API integration, JSON data processing, Django template rendering, and responsive UI design.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Search weather by city name
 - Real-time weather updates using OpenWeatherMap API
@@ -23,18 +23,17 @@ A modern and responsive Weather Application built using **Django**, **Python**, 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Django
 - HTML5
 - CSS3
 - OpenWeatherMap API
-- Requests Library
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 weatherapp/
@@ -64,9 +63,9 @@ weatherapp/
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🏠 Default Weather (Bangalore)
+### Default Weather (Bangalore)
 
 When the application loads for the first time, it automatically displays the weather information for Bangalore.
 
@@ -74,7 +73,7 @@ When the application loads for the first time, it automatically displays the wea
 
 ---
 
-### ✅ Valid City Search
+### Valid City Search
 
 Weather information displayed successfully when a valid city name is entered.
 
@@ -82,7 +81,7 @@ Weather information displayed successfully when a valid city name is entered.
 
 ---
 
-### ❌ Invalid City Search
+### Invalid City Search
 
 Displays an error message when the entered city is not found.
 
@@ -90,7 +89,7 @@ Displays an error message when the entered city is not found.
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Clone the Repository
 
@@ -169,23 +168,6 @@ http://127.0.0.1:8000/
 
 ---
 
-## 📊 Weather Information Displayed
-
-| Parameter | Description |
-|------------|------------|
-| Temperature | Current Temperature |
-| Min Temperature | Minimum Temperature |
-| Max Temperature | Maximum Temperature |
-| Weather Condition | Current Weather Description |
-| Humidity | Moisture Percentage |
-| Wind Speed | Wind Speed (m/s) |
-| Wind Direction | Wind Direction (°) |
-| Clouds | Cloud Coverage (%) |
-| Pressure | Atmospheric Pressure (hPa) |
-| Visibility | Visibility Distance (m) |
-
----
-
 ## 🎨 User Interface Highlights
 
 - Modern Glassmorphism Design
@@ -198,7 +180,7 @@ http://127.0.0.1:8000/
 
 ---
 
-## ❌ Error Handling
+## Error Handling
 
 The application handles:
 
@@ -208,18 +190,6 @@ The application handles:
 - Unexpected runtime errors
 
 Appropriate error messages are displayed to improve user experience.
-
----
-
-## 📈 Future Enhancements
-
-- 5-Day Weather Forecast
-- Hourly Weather Forecast
-- Current Location Detection
-- Air Quality Index (AQI)
-- Weather Maps Integration
-- Dark/Light Theme Toggle
-- Multi-language Support
 
 ---
 
@@ -238,18 +208,6 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 👨‍💻 Author
+## Project Summary
 
-**Kiran Sai**
-
-B.Tech in Computer Science & Engineering
-
-Python Developer | Django Enthusiast
-
-GitHub: https://github.com/Kiran-sai-99
-
----
-
-## ⭐ Project Summary
-
-This Weather Application is a beginner-friendly full-stack web development project that demonstrates how to integrate external APIs with Django to provide real-time weather information through a modern and responsive user interface. It showcases backend development, API integration, dynamic content rendering, error handling, and responsive frontend design, making it a valuable portfolio project for aspiring Python and Django developers.
+This Weather Application is a beginner-friendly full-stack web development project that demonstrates how to integrate external APIs with Django to provide real-time weather information through a modern and responsive user interface. It showcases backend development, API integration, dynamic content rendering, error handling, and responsive frontend design.
