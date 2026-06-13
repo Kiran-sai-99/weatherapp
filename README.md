@@ -8,14 +8,15 @@ A modern and responsive Weather Application built using **Django**, **Python**, 
 
 - Search weather by city name
 - Real-time weather updates using OpenWeatherMap API
+- Default city set to **Bangalore** on application startup
 - Displays current temperature in Celsius
 - Shows minimum and maximum temperatures
+- Weather description with dynamic weather icons
 - Humidity percentage
 - Wind speed and wind direction
 - Cloud coverage information
 - Atmospheric pressure details
 - Visibility measurement
-- Dynamic weather icons
 - Error handling for invalid city names
 - Modern Glassmorphism user interface
 - Responsive design for different screen sizes
@@ -36,7 +37,7 @@ A modern and responsive Weather Application built using **Django**, **Python**, 
 ## 📂 Project Structure
 
 ```text
-weather_app/
+weatherapp/
 │
 ├── weather/
 │   ├── views.py
@@ -46,10 +47,15 @@ weather_app/
 │   │   ├── home.html
 │   │   └── partials/
 │   │       └── navbar.html
+│   │
+│   └── static/
+│       └── css/
+│           └── style.css
 │
-├── static/
-│   └── css/
-│       └── style.css
+├── screenshots/
+│   ├── default-weather.png
+│   ├── weather-result.png
+│   └── city-not-found.png
 │
 ├── manage.py
 ├── requirements.txt
@@ -58,13 +64,39 @@ weather_app/
 
 ---
 
-## ⚙️ Installation and Setup
+## 📸 Screenshots
+
+### 🏠 Default Weather (Bangalore)
+
+When the application loads for the first time, it automatically displays the weather information for Bangalore.
+
+![Default Weather](screenshots/default-weather.png)
+
+---
+
+### ✅ Valid City Search
+
+Weather information displayed successfully when a valid city name is entered.
+
+![Weather Result](screenshots/weather-result.png)
+
+---
+
+### ❌ Invalid City Search
+
+Displays an error message when the entered city is not found.
+
+![City Not Found](screenshots/city-not-found.png)
+
+---
+
+## ⚙️ Installation & Setup
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
+git clone https://github.com/Kiran-sai-99/weatherapp.git
+cd weatherapp
 ```
 
 ### Create Virtual Environment
@@ -75,13 +107,13 @@ python -m venv venv
 
 ### Activate Virtual Environment
 
-**Windows**
+#### Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-**Linux / Mac**
+#### Linux / macOS
 
 ```bash
 source venv/bin/activate
@@ -111,13 +143,13 @@ Replace the API key in `views.py`:
 API_KEY = "YOUR_API_KEY"
 ```
 
-### Run the Application
+### Run the Project
 
 ```bash
 python manage.py runserver
 ```
 
-Visit:
+Open your browser and visit:
 
 ```text
 http://127.0.0.1:8000/
@@ -128,9 +160,9 @@ http://127.0.0.1:8000/
 ## 🔄 Application Workflow
 
 1. User enters a city name.
-2. Django receives the request from the frontend.
-3. The backend sends an API request to OpenWeatherMap.
-4. Weather data is returned in JSON format.
+2. Django receives the request.
+3. The backend sends a request to the OpenWeatherMap API.
+4. The API returns weather data in JSON format.
 5. Django processes the response.
 6. Weather information is passed to the template.
 7. Dynamic weather details are displayed on the webpage.
@@ -139,27 +171,30 @@ http://127.0.0.1:8000/
 
 ## 📊 Weather Information Displayed
 
-- Current Temperature
-- Minimum Temperature
-- Maximum Temperature
-- Weather Description
-- Humidity
-- Wind Speed
-- Wind Direction
-- Cloud Coverage
-- Atmospheric Pressure
-- Visibility
+| Parameter | Description |
+|------------|------------|
+| Temperature | Current Temperature |
+| Min Temperature | Minimum Temperature |
+| Max Temperature | Maximum Temperature |
+| Weather Condition | Current Weather Description |
+| Humidity | Moisture Percentage |
+| Wind Speed | Wind Speed (m/s) |
+| Wind Direction | Wind Direction (°) |
+| Clouds | Cloud Coverage (%) |
+| Pressure | Atmospheric Pressure (hPa) |
+| Visibility | Visibility Distance (m) |
 
 ---
 
 ## 🎨 User Interface Highlights
 
 - Modern Glassmorphism Design
-- Fully Responsive Layout
+- Attractive Background Image
 - Dynamic Weather Icons
-- Attractive Background Design
 - Smooth Hover Effects
+- Responsive Layout
 - User-Friendly Dashboard
+- Clean and Minimal Design
 
 ---
 
@@ -172,7 +207,7 @@ The application handles:
 - API request failures
 - Unexpected runtime errors
 
-User-friendly error messages are displayed to improve the overall experience.
+Appropriate error messages are displayed to improve user experience.
 
 ---
 
@@ -194,7 +229,7 @@ Through this project, I gained practical experience in:
 
 - Django Web Development
 - REST API Integration
-- JSON Data Handling
+- JSON Data Processing
 - HTTP Requests and Responses
 - Django Template Rendering
 - Error Handling
@@ -207,10 +242,14 @@ Through this project, I gained practical experience in:
 
 **Kiran Sai**
 
+B.Tech in Computer Science & Engineering
+
 Python Developer | Django Enthusiast
+
+GitHub: https://github.com/Kiran-sai-99
 
 ---
 
 ## ⭐ Project Summary
 
-This Weather Application is a beginner-friendly full-stack web development project that demonstrates how to integrate external APIs with Django to provide real-time weather information through a modern, responsive, and user-friendly interface.
+This Weather Application is a beginner-friendly full-stack web development project that demonstrates how to integrate external APIs with Django to provide real-time weather information through a modern and responsive user interface. It showcases backend development, API integration, dynamic content rendering, error handling, and responsive frontend design, making it a valuable portfolio project for aspiring Python and Django developers.
