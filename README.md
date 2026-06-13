@@ -156,7 +156,7 @@ http://127.0.0.1:8000/
 
 ---
 
-## 🔄 Application Workflow
+## Application Workflow
 
 1. User enters a city name.
 2. Django receives the request.
@@ -168,7 +168,7 @@ http://127.0.0.1:8000/
 
 ---
 
-## 🎨 User Interface Highlights
+## User Interface Highlights
 
 - Modern Glassmorphism Design
 - Attractive Background Image
@@ -193,7 +193,7 @@ Appropriate error messages are displayed to improve user experience.
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I gained practical experience in:
 
